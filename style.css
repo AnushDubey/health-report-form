@@ -1,0 +1,80 @@
+
+   body {
+       background-image: url("./assets/background_img.png");
+       background-size: cover;
+       background-repeat: no-repeat;
+       background-position: center;
+       font-family: Verdana;
+       text-align: center;
+   }
+
+   form {
+       background-color: transparent;
+       max-width: 500px;
+       margin: 50px auto;
+       padding: 30px 20px;
+       box-shadow: none;
+   }
+
+   .form-control {
+       display: grid;
+       grid-template-columns: 1fr 3fr;
+       grid-gap: 10px;
+       align-items: center;
+       margin-bottom: 25px;
+   }
+
+   .form-control label {
+       text-align: right;
+   }
+
+   .form-control input,
+   .form-control select,
+   .form-control textarea {
+       width: 100%;
+       box-sizing: border-box;
+   }
+
+   .form-control input[type="radio"],
+   .form-control input[type="checkbox"] {
+       display: inline-block;
+       width: auto;
+   }
+
+   /* Styling Button */
+   button {
+       background-color: #05c46b;
+       border: none;
+       color: #fff;
+       padding: 10px 20px;
+       font-size: 18px;
+       border-radius: 4px;
+       cursor: pointer;
+       transition: background-color 0.3s ease;
+   }
+
+   button:hover {
+       background-color: #049e58;
+   }
+   .user-data {
+       display: none;
+       margin-top: 50px;
+       text-align: center;
+   }
+
+   table {
+       border-collapse: collapse;
+       width: 50%;
+       margin: 0 auto;
+   }
+
+   th,
+   td {
+       padding: 8px;
+       border: 1px solid #ddd;
+       text-align: left;
+   }
+
+   th {
+       font-weight: bold;
+   }
